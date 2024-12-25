@@ -10,7 +10,7 @@
     "serve:ssr:angular-practice": "node dist/angular-practice/server/server.mjs",
     "storybook": "ng run angular-practice:storybook",
     "build-storybook": "ng run angular-practice:build-storybook",
-    "chromatic": "npx chromatic --project-token=chpt_7e28dc368094557"
+    "chromatic": "chromatic"
   },
   "private": true,
   "dependencies": {
