@@ -24,7 +24,7 @@ type Story = StoryObj<ButtonComponent>;
 export const Primary: Story = {
   args: {
     primary: true,
-    label: 'Button',
+    label: 'Button Primary',
   },
 };
 
