@@ -10,7 +10,7 @@
     "serve:ssr:angular-practice": "node dist/angular-practice/server/server.mjs",
     "storybook": "ng run angular-practice:storybook",
     "build-storybook": "ng run angular-practice:build-storybook",
-    "chromatic": "chromatic"
+    "chromatic": "chromatic --only-changed"
   },
   "private": true,
   "dependencies": {
@@ -53,6 +53,7 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
     "storybook": "^8.4.7",
-    "typescript": "~5.4.2"
+    "typescript": "~5.4.2",
+    "webpack-stats-plugin": "^1.1.3"
   }
 }
