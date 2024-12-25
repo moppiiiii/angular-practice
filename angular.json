@@ -127,7 +127,8 @@
               "-d",
               "."
             ],
-            "outputDir": "storybook-static"
+            "outputDir": "storybook-static",
+            "statsJson": true
           }
         }
       }
