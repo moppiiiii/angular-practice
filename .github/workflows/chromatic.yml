@@ -35,7 +35,12 @@ jobs:
             echo "Chromatic token is not set"
           fi
 
+      - name: Run Storybook Build
+        run: pnpm build-storybook
+
       - name: Run Chromatic
         uses: chromaui/action@latest
         with:
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+          storybookBuildDir: storybook-static
+          onlyChanged: true
