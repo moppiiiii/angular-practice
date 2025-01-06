@@ -105,6 +105,7 @@
           "options": {
             "configDir": ".storybook",
             "browserTarget": "angular-practice:build",
+            "webpackStatsJson": true,
             "compodoc": true,
             "compodocArgs": [
               "-e",
